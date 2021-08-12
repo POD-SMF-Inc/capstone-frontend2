@@ -1,0 +1,197 @@
+.searchSec {
+    display: flex;
+    flex-direction: row;
+    background-color: #F0F8FF;
+    
+}
+
+.filterp {
+    background-color: #F0F8FF;
+    font-family: 'Merriweather', serif;
+
+}
+
+.searchSec .filter {
+    background-color:#d8f2f3;
+    min-width: 260px;
+    min-height:400px;
+    max-height: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    border: solid .2px #000000;
+    box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.5);
+    
+    padding: 10px;
+    margin: 0 10px;
+     
+    border-radius: 6px;
+    /* border-radius: 10px; */
+}
+
+.searchSec .filter .title h1 {
+    float: center;
+    font-size: 25px;
+    border-bottom: solid 1px #000000;
+    margin-bottom: unset;
+}
+
+
+.searchSec .filter .dropDown .dietAll {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+
+}
+
+.searchSec .filter .dropDown .dietAll .dietDrop {
+    margin-top: -20px;
+    font-family: 'Merriweather', serif;
+
+}
+
+.searchSec .filter .dropDown .mealAll .mealDrop {
+    margin-top: -20px;
+}
+
+.searchSec .filter .dropDown .dietAll .dietDrop select {
+    width: 120px;
+    height: 25px;
+    font-family: 'Merriweather', serif;
+
+}
+
+.searchSec .filter .dropDown .mealAll .mealDrop select {
+    width: 120px;
+    height: 25px;
+    font-family: 'Merriweather', serif;
+
+}
+
+
+.searchSec .filter .dropDown .dietAll .dietTitle h1{
+    float: left;
+    font-size: 20px;
+    
+}
+
+.searchSec .filter .dropDown .mealAll .mealTitle h1{
+    float: left;
+    font-size: 20px;
+}
+
+.searchSec .filter .dropDown .mealAll {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchSec .filter .dropDown{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.searchSec .Search {
+    /* background-color: cadetblue; */
+    width: 100%;
+}
+
+.searchSec .Search .box {
+    /*background-color: chartreuse;*/
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    justify-content: center;
+    
+    border-radius: 6px;
+    
+}
+
+.searchSec .Search .query label {
+    /*background-color: rgb(149, 134, 214);*/
+    font-size: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.searchSec .Search .box input {
+    margin-left:40px ;
+    margin-right: 40px;
+    
+   /* background-color:#E6E6FA;*/
+}
+
+.searchSec .filter .check {
+    display: flex;
+    flex-direction: column;
+   /* background-color: crimson;*/
+}
+
+.searchSec .filter .check .checkTitle h8{
+    float: left;
+    font-size: 20px;
+    font-weight: semi-bold;
+    
+    /* background-color: chocolate; */
+}
+
+.searchSec .filter .check .checkChoices input {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.searchSec .filter .check .checkChoices span {
+    /* background-color: darkmagenta; */
+    font-size: 15px;
+    margin-left: 2px;
+    
+    
+}
+
+.searchSec .filter .checkInlo {
+    display: flex;
+    flex-direction: column;
+    /*background-color: crimson;*/
+}
+
+.searchSec .filter .checkInlo .checkInTitle h8{
+    float: left;
+    font-size: 20px;
+    font-weight: semi-bold;
+    /* background-color: chocolate; */
+}
+
+.searchSec .filter .checkInlo .checkInChoices input {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.searchSec .filter .checkInlo .checkInChoices span {
+    /* background-color: darkmagenta; */
+    font-size: 15px;
+    margin-left: 2px;
+    
+}
+
+label {
+    margin-left: 40px;
+}
+/*.checkInChoices {
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+
+.checkChoices {
+    padding-left: 15px;
+}*/
+
+

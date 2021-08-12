@@ -1,0 +1,12 @@
+.PageH {
+    
+    color:black;
+    text-transform: uppercase;
+    height: 80px;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

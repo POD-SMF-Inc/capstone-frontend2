@@ -1,0 +1,33 @@
+.IngredientRR {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    /* justify-content: space-evenly; */
+    max-width: 1300px;
+    margin: 0 auto;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+}
+
+.paginationBttns {
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.paginationBttns a:hover {
+    background-color: lightgoldenrodyellow;
+}

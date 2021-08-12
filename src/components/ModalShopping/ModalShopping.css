@@ -1,0 +1,128 @@
+.backgroundList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundList .listSection {
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-radius: 5px; */
+    /* padding: 20px; */
+}
+
+.shoppingTitle h1 {
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.backgroundList .listSection .addItem {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.backgroundList .listSection .addItem input {
+    width: 250px;
+    margin-right: 10px;
+    height: 40px;
+    background-color: #F8F8FF;
+}
+
+
+.backgroundList .listSection .addItem button {
+    width: 120px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 20px;
+    /* height: 30px; */
+    padding: 5px;
+    background-color: #00d1b21c;
+    margin-top: -15px;
+    font-weight: bold;
+    font-family: "Open Sans", Hebrew;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    text-align: center;
+    color: #4a4a4a;
+    /* width: 100px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px; */
+    /* height: 30px; */
+    /* width: unset;
+    height: unset; */
+    /* padding: 5px;
+    background-color: cornsilk;
+    margin-top: -15px; */
+}
+
+.backgroundList .listSection .itemList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backgroundList .listSection .itemList .itemContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 400px;
+
+}
+
+.backgroundList .listSection .itemList .itemContainer .itemName span {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.backgroundList .listSection .itemList .itemContainer .itemName {
+    margin-right: 20px;
+    width: 250px;
+    max-width: 300px;
+    overflow: auto;
+}
+
+.backgroundList .listSection .itemList .itemContainer .quantity {
+    margin-left: 20px;
+}
+
+.backgroundList .listSection .itemList .itemContainer .quantity span {
+    font-size: 20px;
+}
+
+.backgroundList .listSection .totalItems h4{
+    font-size: 25px;
+}
+
+.backgroundList .listSection .totalItems button{
+   /* background-color: cornsilk;
+   color: black;
+   margin: 10px;
+   padding: 5px;
+   border: 1px solid black;
+   border-radius: 5px;
+   font-size: 20px; */
+   background-color: #00d1b21c;
+    color: #4a4a4a;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Open Sans", Hebrew;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    width: 80px;
+    height: 35px;
+}
+
+
+.completedCircle {
+    text-decoration: line-through;
+  }
